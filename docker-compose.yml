@@ -1,0 +1,27 @@
+version: '3.5'
+
+services:
+  lerz-laravel-app:
+    build:
+      context: './Dockerfile'
+      args:
+        uid: 123
+    container_name: agilgob_lerz
+    ports:
+      - 9999:80
+    environment:
+      - APACHE_RUN_USER=#1000
+      - APACHE_RUN_GROUP=#1000
+    volumes:
+      - ./aplicacion:/var/www/html
+    depends_on: 
+      - lerz-mysql-db
+
+  lerz-mysql-db:
+    image: mysql:5.7
+    container_name: agilgob_lerz_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=agilgob_lerz
+      - MYSQL_USER=luis
+      - MYSQL_PASSWORD=123456

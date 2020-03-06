@@ -1,0 +1,21 @@
+BIENVENIDO A LAS INSTRUCCIONES DE INSTALACIÓN DEL SISTEMA PARA AGILGOBS, DISEÑADO POR EL DR. LUIS ESTEBAN RUELAS ZARAGOZA
+
+Para utilizar la app se requiere un ambiente LAMP, por lo se utiliza Docker para desarrollar este ambiente. Si docker ya está instalado, favor de comenzar en el al paso 2. 
+
+Paso 1 Instalar Docker:
+-Instalar la  la herramienta Docker (instrucciones de instalación en https://docs.docker.com/install/)
+-Instalar la herramienta docker-compose (instrucciones en https://docs.docker.com/compose/install/)
+
+Paso 2 Instalar Docker Compose:
+-Abrir la aplicación de docker (si estamos en Windows) o la terminal (Linux o Mac) y entrar a la carpeta AgilGob
+-Utilizar el comando: "docker-compose up -d"
+-Advertencia: si el puerto 9999 está siendo utilizado por otra aplicación, se deberá modificar la linea 11 del archivo "docker-compose.yml" y escribir un numero de puerto que no esté siendo utilizado
+
+Paso 3 Verificar la instalacion
+-Ahora puedes visualizar el proyecto en tu navegador (cualquiera) en la url: "http://localhost:9999"
+-Avertencia: si en el paso 2 cambiaste tu puerto será necesario que coloques ese numero de puerto en lugar de "9999".
+
+Paso 4: Prepara la base de datos
+	-La base de datos debe ser preparada con los datos de prueba, por lo que debemos entrar al contenedor de docker utilizando nuestra herramienta (Docker en Windows y terminal en Mac y Linux), introducimos el siguiente comando: "docker exec -ti agilgob_lerz bash"
+	-Una vez dentro corremos el comando: "php artisan migrate" para crear las tablas.
+	-Ahora hay que introducir los datos base con "php artisan db:seed"
