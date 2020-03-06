@@ -17,7 +17,7 @@
 			<div class="col-lg-12">
 				<h1>Visualizador de Usuarios</h1>
 				<div style="margin-bottom: 20px">
-					<a class="btn btn-primary" href="{{route('user.create')}}" style="color: white">Crear</a>
+					<a class="btn btn-primary" href="{{route('user.create')}}" style="color: white">Crear Usuario</a>
 				</div>
 				<table class="table responsive">
 					<th>Nick</th>

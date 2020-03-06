@@ -25,7 +25,7 @@ Una vez creados los contenedores, ejecute en la misma herramienta el comando:
 
 	docker exec -ti agilgob_lerz bash
 
-Posteriormente ejecute:
+Una vez dentro del contenedor correspondiente corra el comando:
 
 	cd AgilGob
 
