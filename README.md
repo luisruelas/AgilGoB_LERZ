@@ -13,7 +13,7 @@ Instale la herramienta Docker Compose siguiendo las instrucciones de la página:
 Paso 3 Obtener el repositorio:
 Por favor entre a https://github.com/luisruelas/AgilGoB_LERZ y descargue el repositorio. Si está utilizando una distribución de linux, también puede usar 
 
-	git pull https://github.com/luisruelas/AgilGoB_LERZ
+	git clone https://github.com/luisruelas/AgilGoB_LERZ
 
 Paso 4 Inicializar los contendores:
 Con su herramienta de Docker (o la terminal en caso de Linux o Mac), entre a la ruta donde descargó la aplicación. Una vez en la carpeta AgilGob (raíz) ejecute el comando: 
