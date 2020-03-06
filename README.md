@@ -17,7 +17,7 @@ Por favor entre a https://github.com/luisruelas/AgilGoB_LERZ y descargue el repo
 	git clone https://github.com/luisruelas/AgilGoB_LERZ
 
 #### Paso 4 Inicializar los contendores:
-Con su herramienta de Docker (o la terminal en caso de Linux o Mac), entre a la ruta donde descargó la aplicación. Una vez en la carpeta AgilGob (raíz) ejecute el comando. Esto puede dilatar un momento, ya que está construyendo un contenerdor. **ADVERTENCIA**. Esta aplicación utiliza el puerto 9999, por lo que si lo tienen ocupado con otra aplicación debería entrar al archivo `docker-compose.yml` que se encuentra en la raíz y cambiar el numero "9999" en la linea 11 a cualquier puerto que libre usted desee: 
+Con su herramienta de Docker (o la terminal en caso de Linux o Mac), entre a la ruta donde descargó la aplicación. Una vez en la carpeta AgilGob (raíz) ejecute el comando. Esto puede dilatar un momento, ya que está construyendo un contenedor. **ADVERTENCIA**. Esta aplicación utiliza el puerto 9999, por lo que si usted lo tiene ocupado en este momento, debería editar al archivo `docker-compose.yml` que se encuentra en la raíz y cambiar el numero "9999" en la linea 11 a cualquier puerto que libre usted desee: 
 
 	docker-compose up -d
 
