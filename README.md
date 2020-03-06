@@ -32,7 +32,7 @@ Posteriormente ejecute:
 
 Para inicializar el repositorio usted debe descargar las dependencias. Por favor ejecute:
 
-	composer dump-autoload
+	composer install
 
 Posteriormente hay que correr las migraciones que crean las tablas correspondientes:
 
