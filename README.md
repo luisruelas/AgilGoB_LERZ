@@ -1,10 +1,10 @@
-BIENVENIDO A LA PRUEBA DE ENTRADA PARA LA COMPAÑIA AGILGOB DEL DR LUIS ESTEBAN RUELAS ZARAGOZA.
+#BIENVENIDO A LA PRUEBA DE ENTRADA PARA LA COMPAÑIA AGILGOB DEL DR LUIS ESTEBAN RUELAS ZARAGOZA.
 
 Para correr esta aplicación siga los siguientes pasos:
 
 Si usted ya tiene docker y docker compose instalados, por favor pase al paso 3.
 
-Paso 1 Obtener docker:
+Paso 1 .Obtener docker:
 Instale la herramienta Docker siguiendo las instrucciones de la página: https://docs.docker.com/install/
 
 Paso 2 Obtener docker compose: 
